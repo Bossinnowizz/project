@@ -7,7 +7,7 @@
 
         <style>
             .top {
-              background-image: url('IMG/top1.jpg');
+              background-image: url('top1.jpg');
             }
             h3{
             text-align: center;
@@ -26,7 +26,7 @@
                 </nav>
             </div>
             <div class="center"> 
-                <img src="IMG/menu3.jpg" id="myImage" width="800px" style="height: 575px">
+                <img src="menu3.jpg" id="myImage" width="800px" style="height: 575px">
                 <input type="button" onclick="changeImage()" value="NEXT" style="width: 100%; height:25px">
     
 
@@ -65,11 +65,11 @@
         <script>
             function changeImage() {
                 var image = document.getElementById('myImage');
-                 if (image.src.match("IMG/menu1.jpg")) {
-                image.src = "IMG/menu3.jpg";
+                 if (image.src.match("menu1.jpg")) {
+                image.src = "menu3.jpg";
              }
             else {
-        image.src = "IMG/menu1.jpg";
+        image.src = "menu1.jpg";
             }
         }
         </script>
