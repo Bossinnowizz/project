@@ -1,0 +1,41 @@
+h2{
+	color: yellow;
+	background-color: black;
+	text-indent: 30px
+}
+
+p{
+	color: red;
+	font-family: Helvetica;
+	text-align: justify;
+	font-size: 12x;
+}
+
+h1{
+	color: White;
+}
+
+td{
+	font-size: 11px;
+	color: red;
+}
+
+th{
+	font-size: 16px;
+	color: red;
+}
+
+li::before{
+	list-style-type: disc;
+}
+
+li{
+	color: red;
+	font-size: 14px;
+}
+
+body{
+	background-color: beige;
+	margin-left:10%;
+	margin-right:10%;
+}
