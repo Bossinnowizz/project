@@ -1,0 +1,193 @@
+.main{
+    background-color: blue;
+    width: 100%;
+    height: 800px;
+}
+
+    .top{
+    width: 97%;
+    height: 100px;
+    background-color: transparent;
+    margin: auto;
+    float: right;
+}
+
+    .center{
+    width: 97%;
+    height: 500px;
+    background-color: yellow;
+    margin: auto;
+    float: right;
+    margin-right: 18px;
+}
+
+    .footer{
+    width: 97%;
+    height: 120px;
+    background-color: grey;
+    margin: auto;
+    float: right;
+    margin-right: 18px;
+}
+
+nav{
+text-align: right;
+padding-top: 50px;
+position: absolute;
+font-size:larger;
+}
+
+    .lhs{
+    width: 30% ;
+    height: 620px;
+    background-color: white;
+    float: left;
+}
+
+    .rhs{
+    width: 70% ;
+    height: 620px;
+    background-color: blue;
+    float: right;
+}
+
+img{
+width: 100%;
+height: 200px;
+}
+
+.stickyicon-list {   
+    position: fixed;   
+    top: 200px;   
+    transform: translateY(-50%);             
+}         
+.stickyicon-list a {   
+    display: block;   
+    text-align: center;   
+    padding: 8px;   
+    transition: all 0.5s ease;   
+    color: white;   
+    font-size: 20px;   
+}         
+/* HOver affect on sticky social media icons */   
+.stickyicon-list a:hover {   
+    color: #000;   
+    width:10px;   
+}   
+
+/* Now we have to design each icon of social media */         
+.facebook {   
+    background: #3b5998;   
+    color: white;  
+}         
+.twitter {   
+    color: white;   
+    background: #00acee;   
+}   
+.linkedin {   
+    background: #0e76a8;   
+    color: white;   
+}         
+.google {   
+    color: white;   
+    background: #db4a39;   
+}   
+.instagram {   
+    background: #3f729b;   
+    color: white;   
+}         
+.youtube {   
+    color: white;   
+    background: #c4302b;    
+}
+.logo{
+    width: 10%;
+    height: 100px;
+} 
+.top-right{
+    width: 90%;
+    height: 100px;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+* {box-sizing: border-box;}
+body {font-family: verdana, sans-serif;}
+
+/* Hide the images by default */
+.mySlides {
+  display: all;
+}
+img{
+  vertical-align: middle;
+  height: 480px;
+}
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active{
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+@media only screen and (max-width: 300px){
+  .text { font-size: 11px}
+}
